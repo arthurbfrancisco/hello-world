@@ -1,46 +1,63 @@
+* {
+    box-sizing: border-box;
+  }
+
 body {
-    background-color: #EAF6F6;
+    font-family: Helvetica, sans-serif;
+    padding: 30px;
+    background: #e0dbdb;
+    
   }
 
 
 h1 {
-    color: red;
+    color: rgb(243, 126, 9);
 }
 
 h2 {
-    color:brown; 
+    color:rgb(52, 5, 241); 
 }
 hr {
-style="width:5%;
+width:5%;
 }
-header {
 
-    background-color: blanchedalmond;
-    height: 100px;
-    white-space: 0;
-}
 
 img {
     border-style: solid;
     border-color: black;
-    border-width: 5px;
+    border-width: 20px;
+    max-width: 50%;
+    height:auto;
+
 }
 
- .link1:hover {
-    background-color: blueviolet;
-}
-
-.link2:hover {
-    background-color: blueviolet;
-}
-
-nav li {
-    background-color: aquamarine;
-    display: inline-block;
-    text-decoration: none;
-    
+/* Style the top-nav navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
   }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #93f6da;
+  }
+  
 
+  
+  /* When I hover my mouse color change for top-nav*/
 
   
   hr {
@@ -49,4 +66,23 @@ nav li {
     border-color: grey;
     border-width: 5px;
     width: 5%;
+  }
+
+  header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    padding-top: 0px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-bottom: 10px solid#f0730c; /* Orange line accent for border*/
+  } 
+  
+    footer {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-bottom: 4px solid #f0730c;
   }
