@@ -3,10 +3,10 @@ let myName = 'Arthur';
 document.write( "Hello, welcome my name is  " + myName)
 
 
-let bornday = prompt("Type D.O.B Year");
-if (bornday <= '2000') {
- document.write (" You're old ");
+let lastVaca = prompt("What year was the last time you traveled!");
+if (lastVaca <= '2000') {
+ document.write (" You're due for some solo travel! ");
 } else {
-    document.write(' Your what ever')
+    document.write(' Hurry and save so you can plan soon!')
 }
 

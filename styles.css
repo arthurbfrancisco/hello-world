@@ -1,7 +1,7 @@
-
 body {
-    margin: 0;
-}
+    background-color: #EAF6F6;
+  }
+
 
 h1 {
     color: red;
@@ -10,7 +10,9 @@ h1 {
 h2 {
     color:brown; 
 }
-
+hr {
+style="width:5%;
+}
 header {
 
     background-color: blanchedalmond;
@@ -37,4 +39,14 @@ nav li {
     display: inline-block;
     text-decoration: none;
     
+  }
+
+
+  
+  hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
   }
