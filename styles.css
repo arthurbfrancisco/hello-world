@@ -24,6 +24,9 @@ img {
     border-style: solid;
     border-color: black;
     border-width: 5px;
+    max-width: 70%;
+    height:auto;
+
 }
 
  .link1:hover {
