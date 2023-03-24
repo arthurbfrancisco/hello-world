@@ -1,8 +1,8 @@
 document.write( "Hello, welcome my name is Arthur and this is my blog! ");
-
+// ask for user input!
 function inviteUser() {
     let yourName = "";
-    
+    // Regex provided by GPT, stay away for now!
     while (!yourName || !/^[a-zA-Z]+$/.test(yourName)) {
       yourName = prompt("Please enter a valid name (letters only)");
     }
@@ -30,17 +30,23 @@ function inviteUser() {
 
 function imageCount() {
     let myImage = prompt("How many pics you want to see?");
-
+     myImage = parseInt(myImage);
     if (isNaN(myImage) || myImage <=0) {
         alert("Please enter a valid number greater than 0")
         return;
     }
     
     for (let i = 0; i < myImage; i++ ) {
-        let umage = document.createElement("solo.img");
+      document.write("<img src='solo.png' class='myImage' alt='solo-traveler'>");
  }
 
  return myImage;
 }
+//call fucntion
+
+inviteUser();
+myNum();
+imageCount();
 // Get the user star input
 
+//'<img scr="solo.png" class='myImage' alt=solo-traveler">'lgit 
